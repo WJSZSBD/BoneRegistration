@@ -1,0 +1,47 @@
+<version>002.002</version>
+<PATH>
+	<flat>H:/CBCT/BoneRegistration/config/Yi4343DAC/HFW/BINN3x3/flat_CBCT.seq</flat>
+	<dark>H:/CBCT/BoneRegistration/config/Yi4343DAC/HFW/BINN3x3/dark.seq</dark>
+	<deadpixel>H:/CBCT/BoneRegistration/config/Yi4343DAC/HFW/BINN3x3/inds.deadPixel</deadpixel>
+	<start_angle>0</start_angle>
+	<angle>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/angle.seq</angle>
+	<sor_x0>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/DetX.seq</sor_x0>
+	<sor_y0>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/DetY.seq</sor_y0>
+	<p_x>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/pX.seq</p_x>
+	<p_y>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/pY.seq</p_y>
+	<detector_R>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/detector_R.seq</detector_R>
+	<detector_P>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/detector_P.seq</detector_P>
+	<detector_Y>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/detector_Y.seq</detector_Y>
+	<SysM>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/SysM.seq</SysM>
+	<SD>H:/CBCT/BoneRegistration/config/Yi4343DAC/300/SOD.seq</SD>
+</PATH>
+<DATA>
+	<prj_pixel_size>0.417</prj_pixel_size>
+	<prj_width>1024</prj_width>
+	<prj_height>1024</prj_height>
+	<prj_num>299</prj_num>
+	<ma_ratio>1</ma_ratio>
+	<prj_orientation>6</prj_orientation>
+	<needRawCorrection>1</needRawCorrection>
+	<imagingROI[0]>0</imagingROI[0]>
+	<imagingROI[1]>1023</imagingROI[1]>
+	<imagingROI[2]>0</imagingROI[2]>
+	<imagingROI[3]>1023</imagingROI[3]>
+	<vol_pixel_size>0.54</vol_pixel_size>
+	<vol_size>512</vol_size>
+	<vol_height>512</vol_height>
+	<vol_cut>1</vol_cut>
+	<vol_orientation>5</vol_orientation>
+	<vol_start_x>-134.9</vol_start_x>
+	<vol_start_y>-134.9</vol_start_y>
+	<vol_start_z>-134.9</vol_start_z>
+	<linearHU[0]>109000</linearHU[0]>
+	<linearHU[1]>-1000</linearHU[1]>
+</DATA>
+<RECON>
+	<PC_method>PC</PC_method>
+	<PC_method_para>C:/FICBCT/Yi4343DAC/ALGO/PC_110_log_EBHC.xml</PC_method_para>
+	<method>FDK_FI</method>
+	<method_para>C:/FICBCT/Yi4343DAC/ALGO/FDK_FULL_FI_AutoMAR_001.xml</method_para>
+</RECON>
+

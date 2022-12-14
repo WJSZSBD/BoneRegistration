@@ -1,0 +1,10 @@
+# IDE files
+.idea/
+__pycache__/
+
+# input data
+data/
+
+# output data
+result/
+*.zip
